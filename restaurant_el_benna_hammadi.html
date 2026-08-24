@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b0714">
+<title>Restaurant El Benna Hammadi</title>
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Tahoma,Arial,sans-serif}
+body{
+  min-height:100vh;display:flex;justify-content:center;align-items:center;padding:24px 14px;
+  color:#fff;background:
+  radial-gradient(circle at 50% 8%,rgba(255,105,40,.22),transparent 30%),
+  radial-gradient(circle at 20% 70%,rgba(126,36,255,.22),transparent 35%),
+  linear-gradient(145deg,#0a0711,#170b20 48%,#09060e);
+}
+.card{
+ width:min(100%,650px);padding:48px 34px 42px;text-align:center;
+ border:1px solid rgba(255,255,255,.16);border-radius:38px;
+ background:rgba(8,7,16,.88);box-shadow:0 0 70px rgba(173,55,255,.16);
+ backdrop-filter:blur(18px)
+}
+.logo{
+ width:178px;height:178px;margin:0 auto 25px;border-radius:50%;
+ display:grid;place-items:center;overflow:hidden;
+ background:linear-gradient(145deg,#ff8a25,#ff315e 48%,#8d35ff);
+ border:5px solid rgba(255,255,255,.85);
+ box-shadow:0 0 25px rgba(255,91,52,.65),0 0 65px rgba(151,45,255,.35);
+ font-size:68px;font-weight:900
+}
+.logo span{filter:drop-shadow(0 3px 4px rgba(0,0,0,.35))}
+h1{font-size:34px;line-height:1.25;margin:0 0 10px;font-weight:800}
+.sub{color:#bdb8c5;font-size:18px;margin:0 0 34px}
+.links{display:grid;gap:16px}
+a{
+ text-decoration:none;color:white;min-height:76px;border-radius:23px;
+ display:flex;align-items:center;justify-content:center;gap:16px;
+ font-size:24px;font-weight:800;transition:transform .18s,filter .18s;
+ box-shadow:0 9px 22px rgba(0,0,0,.24)
+}
+a:hover{transform:translateY(-3px);filter:brightness(1.08)}
+a:active{transform:scale(.98)}
+.fb{background:linear-gradient(110deg,#0866ff,#35a4ed)}
+.tt{background:linear-gradient(110deg,#080808,#252525)}
+.ig{background:linear-gradient(110deg,#7b2fc7,#e91e58 52%,#ffad3c)}
+.icon{font-size:31px;width:35px;text-align:center}
+.footer{margin-top:30px;color:#aaa3b3;font-size:16px}
+@media(max-width:520px){
+ .card{padding:40px 20px 34px;border-radius:32px}
+ .logo{width:155px;height:155px;font-size:60px}
+ h1{font-size:28px}.sub{font-size:16px}
+ a{min-height:68px;font-size:21px;border-radius:20px}
+}
+</style>
+</head>
+<body>
+<main class="card">
+  <div class="logo"><span>🍽️</span></div>
+  <h1>Restaurant El Benna Hammadi</h1>
+  <p class="sub">أهلاً وسهلاً بكم ❤️</p>
+
+  <div class="links">
+    <a class="fb" href="https://www.facebook.com/profile.php?id=61593412546320" target="_blank" rel="noopener">
+      <span class="icon">f</span> Facebook
+    </a>
+    <a class="tt" href="https://www.tiktok.com/@restaurant.el.ben?_r=1&_t=ZS-99A7XKpdXDp" target="_blank" rel="noopener">
+      <span class="icon">♪</span> TikTok
+    </a>
+    <a class="ig" href="https://www.instagram.com/restaurant_el_benna_hammadi?igsi=NmMxazQ3NjA4NmNt" target="_blank" rel="noopener">
+      <span class="icon">◎</span> Instagram
+    </a>
+  </div>
+
+  <div class="footer">❤️ شكراً لزيارتكم</div>
+</main>
+</body>
+</html>
